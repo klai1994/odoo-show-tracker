@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+        <record id="goober_1" model="res.partner">
+                <field name="name">Aiden</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/aiden.png"/>
+        </record>
+        <record id="goober_2" model="res.partner">
+                <field name="name">The Cooler Aiden</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/the_cooler_aiden.png"/>
+        </record>
+        <record id="goober_3" model="res.partner">
+                <field name="name">Braiden</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/braiden.png"/>
+        </record>
+        <record id="goober_4" model="res.partner">
+                <field name="name">Bootus</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/bootus.png"/>
+        </record>
+        <record id="goober_5" model="res.partner">
+                <field name="name">Borts</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/borts.png"/>
+        </record>
+        <record id="goober_6" model="res.partner">
+                <field name="name">Borts 2: Electric Boogaloo</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/borts_2.png"/>
+        </record>
+        <record id="goober_7" model="res.partner">
+                <field name="name">Buioem</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/bhuioem.png"/>
+        </record>
+        <record id="goober_8" model="res.partner">
+                <field name="name">Chunus</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/chunus.png"/>
+        </record>
+        <record id="goober_9" model="res.partner">
+                <field name="name">Ashliigymne</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/ashliigymne.png"/>
+        </record>
+        <record id="goober_10" model="res.partner">
+                <field name="name">Jorch</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/jorch.png"/>
+        </record>
+        <record id="goober_11" model="res.partner">
+                <field name="name">Jort</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/jort.png"/>
+        </record>
+        <record id="goober_12" model="res.partner">
+                <field name="name">Hunby</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/hunby.png"/>
+        </record>
+        <record id="goober_13" model="res.partner">
+                <field name="name">Clarser</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/clarser.png"/>
+        </record>
+        <record id="goober_14" model="res.partner">
+                <field name="name">Shamp</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/shamp.png"/>
+        </record>
+        <record id="goober_15" model="res.partner">
+                <field name="name">Humers</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/humers.png"/>
+        </record>
+        <record id="goober_16" model="res.partner">
+                <field name="name">Hammin</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/hammin.png"/>
+        </record>
+        <record id="goober_17" model="res.partner">
+                <field name="name">Hobem</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/hobem.png"/>
+        </record>
+        <record id="goober_18" model="res.partner">
+                <field name="name">Fooly</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/fooly.png"/>
+        </record>
+        <record id="goober_19" model="res.partner">
+                <field name="name">Fartus</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/fartus.png"/>
+        </record>
+        <record id="goober_20" model="res.partner">
+                <field name="name">Broop</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/broop.png"/>
+        </record>
+        <record id="goober_21" model="res.partner">
+                <field name="name">Hogby</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/hogby.png"/>
+        </record>
+        <record id="goober_22" model="res.partner">
+                <field name="name">Shrimp</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/shimp.png"/>
+        </record>
+        <record id="goober_23" model="res.partner">
+                <field name="name">Fooby</field>
+                <field name="is_company" eval="False"/>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/fooby.png"/>
+    
+        </record>
+        <record id="goober_24" model="res.partner">
+                <field name="name">Foob</field>
+                <field name="image_1920" type="base64" file="show_tracker/static/src/img/foob.png"/>
+        </record>
+        
+    </data>
+</odoo>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <menuitem name="Show Tracker"
+        id="show_tracker_main"
+        web_icon="show_tracker,static/description/icon.png"
+        sequence="100"/>
+
+    <menuitem name="Shows"
+        id="show_tracker_menu"
+        parent="show_tracker_main"
+        action="show_tracker_action"
+        groups="base.group_user"/>
+</odoo>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="show_tracker_view_form" model="ir.ui.view">
+        <field name="name">show.tracker.view.form</field>
+        <field name="model">show.tracker</field>
+        <field name="arch" type="xml">
+            <form string="Show Tracker">
+                <header>
+                    <field name="status" widget="statusbar" options="{'clickable': '1'}"/>
+                </header>
+                <sheet>
+                    <div class="oe_title" id='title'>
+                        <label for="name" string="Name"/>
+                        <h1 id="name"><field name="name" required="1" placeholder="e.g. Scooby Doo"/></h1>
+                        <group>
+                            <group>
+                                <field name="watched_episodes"/>
+                                <field name="total_episodes"/>
+                            </group>
+                            <group>
+                                <field name="rating" widget="priority"/>
+                                <field name="write_date"/>
+                            </group>
+                        </group>
+                    </div>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" groups="base.group_user"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record id="show_tracker_view_tree" model="ir.ui.view">
+        <field name="name">show.tracker.view.tree</field>
+        <field name="model">show.tracker</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="watched_episodes"/>
+                <field name="total_episodes"/>
+                <field name="status" widget="badge"
+                    decoration-warning="status=='plan_to_watch'"
+                    decoration-info="status=='currently_watching'"
+                    decoration-danger="status=='on_hold'"
+                    decoration-success="status=='completed'"
+                    />
+                <field name="rating" widget="priority"/>
+                <field name="write_date"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="show_tracker_action" model="ir.actions.act_window">
+        <field name="name">Show Tracker</field>
+        <field name="res_model">show.tracker</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                No shows found.
+            </p>
+        </field>
+    </record>
+</odoo>
